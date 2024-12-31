@@ -1,0 +1,31 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "data": {
+                    "api_key": "API Key"
+                },
+                "title": "Deepseek"
+            }
+        },
+        "abort": {
+            "single_instance_allowed": "Already configured. Only a single configuration possible."
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "data": {
+                    "prompt": "Prompt",
+                    "llm_hass_api": "LLM HASS API",
+                    "recommended": "Recommended model settings",
+                    "chat_model": "Chat model",
+                    "max_tokens": "Max tokens",
+                    "top_p": "Top P",
+                    "temperature": "Temperature"
+                },
+                "title": "Deepseek"
+            }
+        }
+    }
+}

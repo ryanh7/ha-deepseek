@@ -1,0 +1,31 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "data": {
+                    "api_key": "API密钥"
+                },
+                "title": "Deepseek"
+            }
+        },
+        "abort": {
+            "single_instance_allowed": "已有插件配置，不可重复配置"
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "data": {
+                    "prompt": "提示词",
+                    "llm_hass_api": "LLM HASS API",
+                    "recommended": "使用推荐模型设置",
+                    "chat_model": "模型",
+                    "max_tokens": "最大tokens",
+                    "top_p": "Top P",
+                    "temperature": "温度系数（随机性）"
+                },
+                "title": "Deepseek"
+            }
+        }
+    }
+}

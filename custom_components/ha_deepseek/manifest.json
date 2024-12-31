@@ -1,0 +1,13 @@
+{
+  "domain": "ha_deepseek",
+  "name": "Deepseek",
+  "version": "0.1.0",
+  "after_dependencies": ["assist_pipeline", "intent"],
+  "codeowners": ["@ryanh7"],
+  "config_flow": true,
+  "dependencies": ["conversation"],
+  "documentation": "https://github.com/ryanh7/ha-deepseek",
+  "integration_type": "service",
+  "iot_class": "cloud_polling",
+  "requirements": ["openai>=1.35.7"]
+}
